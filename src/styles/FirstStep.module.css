@@ -1,0 +1,18 @@
+.Form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.Input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 2rem;
+}
+.Input:focus {
+  outline: none;
+}
+
+.Label {
+  margin-top: 0.7rem;
+}

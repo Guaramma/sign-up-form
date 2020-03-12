@@ -1,0 +1,63 @@
+.SectionTitle {
+  margin-top: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.SectionDate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.SectionDate input {
+  width: 33.3333%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  height: 70px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.SectionDate input::placeholder {
+  text-align: center;
+}
+.SectionDate input:focus {
+  outline: none;
+}
+.SectionGender {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.SectionGender [type="radio"] {
+  display: none;
+}
+.SectionGender [type="radio"] + label {
+  display: flex;
+  line-height: 140%;
+  text-align: center;
+  border: 1px solid #ddd;
+  width: 33.3333%;
+  height: 70px;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.SectionGender [type="radio"] + label:hover {
+  border: 1px solid rgba(77, 146, 223);
+  cursor: pointer;
+}
+.SectionGender [type="radio"]:checked + label {
+  border: 1px solid rgba(77, 146, 223);
+  color: white;
+  font-weight: 700;
+  background-color: rgba(77, 146, 223);
+}
+
+hr {
+  margin-top: 50px;
+}

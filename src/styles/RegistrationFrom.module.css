@@ -1,0 +1,60 @@
+.Container {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  max-width: 600px;
+  width: 50%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  color: rgba(77, 146, 223);
+  margin-top: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+}
+
+.Line {
+  position: absolute;
+  left: -10px;
+  margin-top: 1rem;
+  width: calc(100% + 20px);
+  height: 5px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+
+.Filler1 {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 5px;
+  background-color: rgba(77, 146, 223);
+  width: 33%;
+  transition: width 1s linear;
+}
+
+.Filler2 {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 5px;
+  background-color: rgba(77, 146, 223);
+  width: 66%;
+  transition: width 1s linear;
+}
+
+.Filler3 {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 5px;
+  background-color: rgba(77, 146, 223);
+  width: 100%;
+  transition: width 1s linear;
+}

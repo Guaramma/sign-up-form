@@ -1,0 +1,8 @@
+.FormContol.error input {
+  border: 1px solid red;
+}
+
+.FormContol.error span,
+.FormContol.error label {
+  color: red;
+}

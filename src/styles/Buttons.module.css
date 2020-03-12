@@ -1,0 +1,93 @@
+.OneBtn {
+  margin: 15px 0 10px;
+  display: flex;
+  justify-content: flex-end;
+  justify-items: center;
+  position: relative;
+}
+
+.OneBtn::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #ccc;
+  width: calc(100% + 20px);
+  transition: width 0.25s;
+  right: -10px;
+  top: -20px;
+}
+
+.OneBtn i {
+  color: rgba(123, 181, 234);
+  align-self: flex-end;
+  font-size: 1rem;
+}
+
+.TwoBtn {
+  margin: 50px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  position: relative;
+}
+
+.TwoBtn i {
+  color: rgba(123, 181, 234);
+  align-self: flex-end;
+  font-size: 1rem;
+}
+
+.TwoBtn::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #ccc;
+  width: calc(100% + 20px);
+  transition: width 0.25s;
+  left: -10px;
+  top: -20px;
+}
+
+.NextButton {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border: none;
+  text-decoration: none;
+  color: rgba(123, 181, 234);
+  cursor: pointer;
+  outline: none;
+}
+
+.PrevButton {
+  text-transform: uppercase;
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+  color: rgba(172, 172, 172);
+}
+
+.DashboardContainer {
+  margin: 2rem 0 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.DashboardContainer button {
+  font-weight: 700;
+  color: rgba(123, 181, 234);
+  padding: 1rem;
+  border: 2px solid rgba(123, 181, 234);
+  border-radius: 5px;
+  background: none;
+  text-transform: capitalize;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.DashboardContainer button i {
+  margin-left: 10px;
+  font-size: 1rem;
+}
